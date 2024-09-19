@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    background-color: #006eff;
+    background-color: #1f2937;
     color: #ffffff;
 }
 
@@ -16,15 +16,15 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #BD9C3E;
+    background-color: #f59e0b;
 }
 
 header .search input {
     padding: 8px;
-    border: 1px solid #BD9C3E;
+    border: 1px solid #f59e0b;
     border-radius: 4px;
     margin-right: 10px;
-    background-color: #BD9C3E;
+    background-color: #f59e0b;
     color: #ffffff;
 }
 
@@ -138,9 +138,9 @@ nav a {
 .product {
     text-align: center;
     padding: 20px;
-    border: 1px solid #BD9C3E;
+    border: 1px solid #f59e0b;
     border-radius: 5px;
-    background-color: #BD9C3E;
+    background-color: #f59e0b;
 }
 
 .product img {
@@ -173,7 +173,7 @@ nav a {
 .contact-person {
     padding: 20px;
     border-radius: 5px;
-    background-color: #BD9C3E;
+    background-color: #f59e0b;
     color: #ffffff;
 }
 
@@ -203,7 +203,7 @@ nav a {
 }
 
 .social i:hover {
-    color: #BD9C3E;
+    color: #f59e0b;
 }
 
 .social li {
@@ -218,17 +218,25 @@ nav a {
 
 .newsletter {
     padding: 50px 0;
-    background-color: #BD9C3E;
+    background-color: #f59e0b;
     text-align: center;
 }
 
 .newsletter input[type="email"] {
     padding: 10px;
-    border: 1px solid #555;
+    border: 1px solid #f59e0b;
     border-radius: 5px;
     margin-right: 10px;
+    background-color: #f59e0b;
 }
 
+.newsletter input[type="email"]::placeholder {
+    color: #ffffff;
+} 
+
+.newsletter input[type="email"]:focus {
+    outline: none;
+}
 footer {
     background-color: #000;
     padding: 20px 0;
@@ -265,7 +273,7 @@ footer {
 }
 
 .btn {
-    background-color: #BD9C3E;
+    background-color: #f59e0b;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -291,6 +299,3 @@ h3 {
 p {
     font-family: "Montserrat", sans-serif;
 }
-
-
-

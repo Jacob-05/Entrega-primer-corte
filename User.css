@@ -2,19 +2,19 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: #3C506D;
+    background-color: #1f2937;
 }
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #BD9C3E;
+    background-color: #f59e0b;
 }
 .header .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #0e4ef0;
+    color: #006eff;
 }
 .header .logo img {
     height: 40px;
@@ -25,10 +25,11 @@ body {
 }
 .header .search input {
     padding: 8px;
-    border: 1px solid #BD9C3E;
+    border: 1px solid #f59e0b;
     border-radius: 4px;
     margin-right: 10px;
-    background-color: #BD9C3E;
+    background-color: #f59e0b
+;
     color: #ffffff;
 }
 .header .search input::placeholder {
@@ -69,7 +70,7 @@ body {
     margin: 0 auto 20px;
 }
 .profile  .user:hover {
-    background-color: #BD9C3E;
+    background-color: #f59e0b;
 }
 
 .profile .user .icon {
@@ -109,7 +110,7 @@ body {
     border-radius: 50px;
 }
 .profile .options  a:hover {
-    background-color: #BD9C3E;
+    background-color: #f59e0b;
     color: #ffffff;
 }
 
@@ -160,7 +161,7 @@ body {
     width: calc(100% / 3 - 25px);
 }
 .favorites  .items .item:hover {
-    background-color: #BD9C3E;
+    background-color: #f59e0b;
 }
 
 .favorites .items .item img {
